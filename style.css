@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    background-image: linear-gradient(to bottom right,rgb(18, 18, 154),rgb(155, 35, 35));
+}
+.welcome{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#welcome{
+    text-align: left;
+    color: rgb(210, 238, 249);
+    text-decoration: overline underline;
+    text-decoration-color: brown;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: wmotion 5s infinite;
+    transition: 0.5s ease-in-out;
+}
+@keyframes wmotion{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(500px);
+    }
+}
+#to{
+    text-align: right;
+    color: rgb(210, 238, 249);
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: tomotion 5s infinite;
+    transition: 0.8s;
+}
+@keyframes tomotion{
+    0%{
+        transform: translateX(0px); text-decoration: overline underline; text-decoration-color: brown;
+    }
+    100%{
+        transform: translateX(-700px); text-decoration: none; text-decoration-color: brown;
+    }
+}
+#kt{
+    text-align: left;
+    color: rgb(210, 238, 249);
+    text-decoration: overline underline;
+    text-decoration-color: brown;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: ktmotion 5s infinite;
+    transition: 0.5s ease-in-out;
+}
+@keyframes ktmotion{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(350px);
+    }
+}
+#page{
+    text-align: right;
+    color: rgb(210, 238, 249);
+    text-decoration: underline;
+    text-decoration-color: brown;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: pagemotion 5s infinite;
+    transition: 0.8s ease-in-out;
+}
+@keyframes pagemotion{
+    0%{
+        transform: translateX(0px); text-decoration: overline underline; text-decoration-color: brown;
+    }
+    100%{
+        transform: translateX(-655px); text-decoration: underline; text-decoration-color: brown;
+    }
+}
+.navigation{
+    text-align: center;
+    padding-bottom: 100px;
+}
+#enter{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 45px;
+    color: blanchedalmond;
+}
+#enter:hover{
+    color: black;
+    background-image: linear-gradient(red,green);
+    transition: 0.5s;
+}
+
