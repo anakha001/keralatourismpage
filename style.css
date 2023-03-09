@@ -13,3 +13,38 @@
 .navbar-nav{
     margin-right: 50px;
 }
+
+.boat{
+    margin-left: 1485px;
+    animation-name: boatmove;
+    animation-duration: 108s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    transition: 0.8s;
+}
+@keyframes boatmove{
+    0%{
+        margin-left: 1485px;
+    }
+    100%{
+        margin-left: -1800px;
+    }
+}
+.gif{
+    float: right;
+    margin-top: 100px;
+   margin-right: -402px;
+   animation-name: gifmove;
+    animation-duration: 108s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    transition: 0.8s;
+}
+@keyframes gifmove{
+    0%{
+        margin-right: -402px;
+    }
+    100%{
+        margin-right: 1800px;
+    }
+}
