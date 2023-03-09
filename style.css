@@ -3,6 +3,7 @@
     padding: 0%;
 }
 .nav-link{
+    background-color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border: 1px solid black;
     border-bottom: 3px solid grey;
@@ -15,7 +16,7 @@
 }
 
 .boat{
-    margin-left: 1485px;
+    margin-left: 1200px;
     animation-name: boatmove;
     animation-duration: 108s;
     animation-timing-function: ease-in-out;
@@ -24,7 +25,7 @@
 }
 @keyframes boatmove{
     0%{
-        margin-left: 1485px;
+        margin-left: 1275px;
     }
     100%{
         margin-left: -1800px;
@@ -39,4 +40,8 @@
 }
 .kerala{
     margin-left: 630px;
+}
+#wayanad{
+    margin-left: 350px;
+    margin-right: 350px;
 }
