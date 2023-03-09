@@ -30,21 +30,12 @@
         margin-left: -1800px;
     }
 }
-.gif{
-    float: right;
-    margin-top: 100px;
-   margin-right: -402px;
-   animation-name: gifmove;
-    animation-duration: 108s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    transition: 0.8s;
+.nav-link:hover{
+    background-image: linear-gradient(red,green);
+    color: white !important;
+    border: 1px solid rgb(57, 14, 14);
+    border-bottom: 3px solid rgb(40, 88, 40);
 }
-@keyframes gifmove{
-    0%{
-        margin-right: -402px;
-    }
-    100%{
-        margin-right: 1800px;
-    }
+.kerala{
+    margin-left: 450px;
 }
