@@ -45,3 +45,22 @@
     margin-left: 350px;
     margin-right: 350px;
 }
+.card > .key > a{
+    text-decoration: none;
+    color: red;
+}
+.tvmintro > h1{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 80px;
+}
+.tvmintro > img{
+    margin-left: 390px;
+    margin-right: 390px;
+    margin-bottom: 80px;
+}
+.tvmintro > p{
+    text-align: center;
+    margin: 10px 200px 80px 200px;
+}
