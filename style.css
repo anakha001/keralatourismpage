@@ -14,7 +14,14 @@
 .navbar-nav{
     margin-right: 50px;
 }
-
+footer{
+    background-color: black;
+    margin: 50px 0px 0px 0px;
+}
+footer > p{
+    color: white;
+    text-align: center;
+}
 .boat{
     margin-left: 1200px;
     animation-name: boatmove;
@@ -50,6 +57,8 @@
     color: red;
 }
 .tvmintro > h1{
+    text-shadow: 5px 3px grey;
+    text-decoration: overline underline;
     text-align: center;
     margin-top: 80px;
     margin-bottom: 80px;
@@ -63,4 +72,115 @@
 .tvmintro > p{
     text-align: center;
     margin: 10px 200px 80px 200px;
+}
+.login{
+    background-image: linear-gradient(to bottom right,rgb(102, 99, 99),white,rgb(175, 171, 171),grey);
+    margin: 80px 450px 80px 450px;
+    padding: 20px 20px 20px 20px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+#login{
+    background-color: black;
+    font-size: 17px;
+    width: 100%;
+    border: 1px solid black;
+}
+#login:hover{
+    background-color: grey;
+    color: black !important;
+    transition: 0.5s;
+}
+
+.login > .label > .input{
+    border: 2px solid black;
+    border-right: 4px solid grey;
+    border-bottom: 4px solid grey;
+}
+.login > .label > .entry{
+    font-size: 20px;
+}
+.login > h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.signup{
+    background-image: linear-gradient(to bottom right,rgb(102, 99, 99),white,rgb(175, 171, 171),grey);
+    margin: 80px 350px 80px 350px;
+    padding: 20px 20px 20px 20px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+.signup > h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.signup > .cat{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.signup > .button > .btn{
+    background-color: black;
+    font-size: 17px;
+    width: 100%;
+    border: 1px solid black;
+}
+.signup > .button > .btn:hover{
+    background-color: grey;
+    color: black !important;
+    transition: 0.5s;
+}
+.form-label{
+    font-size: 20px;
+}
+.signup > .cat > .form-control{
+    border: 2px solid black;
+    border-right: 4px solid grey;
+    border-bottom: 4px solid grey;
+}
+.signup > .cat > .input-group > .form-control{
+    border: 2px solid black;
+    border-right: 4px solid grey;
+    border-bottom: 4px solid grey;
+}
+.signup > .cat > .form-select{
+    border: 2px solid black;
+    border-right: 4px solid grey;
+    border-bottom: 4px solid grey;
+}
+.signup > .checker > .form-check > .form-check-input{
+    border: 2px solid black;
+    border-right: 4px solid grey;
+    border-bottom: 4px solid grey;
+}
+.dis > .btn{
+    margin-top: 40px;
+    background-image: linear-gradient(to bottom right,red,rgb(219, 135, 135),rgb(137, 214, 137),green);
+}
+.dis > .btn > a{
+    text-decoration: none;
+    color: rgb(3, 50, 3);
+}
+.dis > h1{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 50px;
+}
+.tvmta > h1{
+    text-shadow: 5px 3px grey;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 50px;
+}
+.tvmta > .napier > h2{
+    text-decoration: overline underline;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+.tvm{
+    background-image: linear-gradient(to bottom right,rgb(102, 99, 99),white,white,rgb(175, 171, 171),grey); 
 }
